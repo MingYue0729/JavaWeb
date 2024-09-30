@@ -115,8 +115,7 @@
 ### 3.3 Java对象序列化
 
 ​	Java序列化：Java提供了一套完整的API来进行对象的序列化和反序列化。任何实现了java.io.Serializable接口的类都可以被序列化。
-
-  	步骤: ①创建一个实现了Serializable接口的类；②使用ObjectOutputStream将对象写出到文件或网络流；③使用ObjectInputStream从文件或网络流中读回对象。
+ 步骤: ①创建一个实现了Serializable接口的类；②使用ObjectOutputStream将对象写出到文件或网络流；③使用ObjectInputStream从文件或网络流中读回对象。
 
  
 

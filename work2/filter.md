@@ -268,11 +268,11 @@ public class LoginServlet extends HttpServlet {
 
 运行结果：
 
-![](images\1.png)
+![1](images\1.png)
 
-![](images\2.png)
+![2](images\2.png)
 
-![](images\3.png)
+![3](images\3.png)
 
 输入用户名和密码，如果验证正确，则如图2所示。
 

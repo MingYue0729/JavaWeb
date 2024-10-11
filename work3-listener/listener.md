@@ -54,7 +54,7 @@
 2. **设置日志记录器**： 在 `RequestLoggingListener` 类中，配置了一个 `Logger` 对象来记录日志，使用 `FileHandler` 来将日志写入到指定的文件中。
 3. **自定义日志格式**： 通过自定义 `SimpleFormatter` 的 `format` 方法来定义日志的格式，这个格式包括了请求结束时间、客户端 IP 地址、请求方法、请求 URI、查询字符串、User-Agent 和请求处理时间。
 4. **记录请求开始和结束时间**： 在 `requestInitialized` 方法中，将请求的开始时间存储在请求属性中，在 `requestDestroyed` 方法中，计算请求的处理时间，并将所有日志信息记录到日志文件中。
-5. **日志记录 **： 使用 `System.out.println` 方法将记录的日志信息存放在logs文件中。
+5. **日志记录**：使用 `System.out.println` 方法将记录的日志信息存放在logs文件中。
 
 `RequestLoggingListener.java`
 
